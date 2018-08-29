@@ -1,0 +1,24 @@
+begin number array
+array = () 
+Main = input("what would you like to do with the array? L = load, P = print, S = sum, Q = quit, Mn = find minimum, Mx = find max ") 
+while Main = L 
+   input("what number would you like to add to the array? or would you like to go back to the main program? (R) ")
+   	if input = int
+         add input to array
+if input = R
+ return to main program 
+
+if Main = P 
+  print(array)
+  print("there are x numbers in the array) 
+ return to main program
+if main = Mn 
+ print("sorry, that feature hasnt been added yet")
+  return to main program
+ 
+if main = Mx 
+ print("sorry, that feature hasnt been added yet")
+  return to main program
+
+if main = Q 
+ end number array
